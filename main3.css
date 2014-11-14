@@ -81,7 +81,7 @@ body {
 #marquee_title img {
 	position: relative;
 	left: 440px;
-	top: 40px;
+	top: 30px;
 }
 
 #marquee_nav {
@@ -101,7 +101,11 @@ body {
 
 .no-touch #marquee_nav > ul > li > a:hover {
 	text-shadow: 1px 1px 10px white;
-	border-right: 2px solid red;
+	background-image: url(redline3.png);
+	background-repeat: no-repeat;
+	background-position: 100% .4em;
+	padding-right: 1em;
+/*	border-right: 2px solid red; */
 }
 
 
