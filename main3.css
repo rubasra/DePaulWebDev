@@ -115,6 +115,7 @@ body {
 
 #news article {
 	border-bottom: 2px solid red;
+	padding-bottom: 15px;
 	width: 33%;
 	float: left;
 	height: 390px;
