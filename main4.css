@@ -168,8 +168,12 @@ body {
 @media (max-width: 600px) {
 
 	body {
-		font-size: 18px;
+		font-size: 20px;
 	}
+	
+	#news article p {
+		font-size: 16px;
+	}	
 	
 	.main_width {
 		width: 100%;
