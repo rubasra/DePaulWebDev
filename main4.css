@@ -63,6 +63,7 @@ body {
 	width: 960px;
 	height: 250px;
 	margin-top: 50px;
+	transition: width 2s, height 2s, transform 2s;
 	background-image: url("chicago1.jpg");
 }
 
