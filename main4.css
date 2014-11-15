@@ -42,7 +42,7 @@ body {
 	text-decoration: none;
 }
 
-.notouch .navbutton a:hover {
+.navbutton a:hover {
 	border-bottom: 2px solid red;
 }
 
@@ -165,7 +165,7 @@ body {
 	Media Queries
 ======================================================*/
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
 	.main_width {
 		width: 100%;
 	}
