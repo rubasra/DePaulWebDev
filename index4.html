@@ -4,10 +4,13 @@
 <head>
 	<meta charset="utf-8">
 	<title>City of Chicago</title>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="jquery-2.1.1.min.js"><\/script>')</script>
 	<script type="text/javascript" src="modernizr-2.6.2.min.js"></script>
 	<script type="text/javascript" src="prefixfree.min.js"></script>
-	<link href="main3.css" rel="stylesheet">
+	<link href="main4.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>	
+	<script type="text/javascript" src="marquee.js"></script>
 </head>
 
 <body>
@@ -24,7 +27,7 @@
 			</ul>
 		  </nav>
 	  </header>
-	  <section id="marquee" class="main_width">
+	  <section id="marquee" class="imageOne main_width">
 	  	<article id="marquee_title">
 	  		<h2>City of Chicago</h2>
 	  		<h4>The Windy City</h4>
@@ -32,14 +35,14 @@
 	  	</article>
 	  	<nav id="marquee_nav">
 			<ul>
-			  <li><a href="#">Business</a></li>
-			  <li><a href="#">Culture & Recreation</a></li>
-			  <li><a href="#">Environment</a></li>
-			  <li><a href="#">Housing & Development</a></li>
-			  <li><a href="#">Social Services</a></li>
-			  <li><a href="#">Civic Services</a></li>
-			  <li><a href="#">Education</a></li>
-			  <li><a href="#">Health</a></li>
+			  <li id="business"><a href="#">Business</a></li>
+			  <li id="culture"><a href="#">Culture & Recreation</a></li>
+			  <li id="environment"><a href="#">Environment</a></li>
+			  <li id="housing"><a href="#">Housing & Development</a></li>
+			  <li id="social"><a href="#">Social Services</a></li>
+			  <li id="civic"><a href="#">Civic Services</a></li>
+			  <li id="education"><a href="#">Education</a></li>
+			  <li id="health"><a href="#">Health</a></li>
 			</ul>
         </nav>
 	  </section>	  
