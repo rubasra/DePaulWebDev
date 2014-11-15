@@ -42,7 +42,7 @@ body {
 	text-decoration: none;
 }
 
-.navbutton a:hover {
+.no-touch #header_nav .navbutton a:hover {
 	border-bottom: 2px solid red;
 }
 
