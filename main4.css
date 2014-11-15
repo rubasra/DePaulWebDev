@@ -183,7 +183,7 @@ body {
 	#header_nav > li {
 		float: none;
 		top: 50px;
-		left: 150px;
+		text-align: right;
 	}
 	
 	.navbutton a {
