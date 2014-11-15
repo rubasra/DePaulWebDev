@@ -165,7 +165,7 @@ body {
 	Media Queries
 ======================================================*/
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
 	.main_width {
 		width: 100%;
 	}
@@ -202,6 +202,10 @@ body {
 	
 	#marquee_title {
 		float: none;	
+	}
+	
+	#marquee_title img {
+		visibility: hidden;
 	}
 	
 	#marquee_nav {
